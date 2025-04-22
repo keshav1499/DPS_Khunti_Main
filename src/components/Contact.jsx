@@ -16,8 +16,9 @@ function Contact() {
                             action="/thank-you"
                         >
                             <input type="hidden" name="form-name" value="teacher-recruitment" />
-                            <h3 className='text-5xl font-extrabold mb-8 text-center text-green-800 bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-teal-400'>Women Teachers Recruitment</h3>
-
+                            <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-8 text-center text-green-800 bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-teal-400 break-words">
+                             Women Teachers Recruitment
+                            </h2>
                             <p>
                                 <label className="block text-gray-700 font-semibold mb-2">
                                     Full Name
