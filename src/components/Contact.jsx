@@ -9,9 +9,8 @@ function Contact() {
                     <div className="container mx-auto px-6 mt-5 lg:mt-0 lg:mb-0 mb-5">
                         <form 
                             name="contact" 
-                            method="POST" 
-                            data-netlify="true"
                             className='bg-white bg-opacity-95 max-w-2xl mx-auto p-10 rounded-3xl shadow-2xl transform hover:scale-105 transition duration-300'
+                        netlify
                         >
                             <input type="hidden" name="form-name" value="contact" />
                             <h2 className='text-5xl font-extrabold mb-8 text-center text-green-800 bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-teal-400'>Contact Us</h2>
