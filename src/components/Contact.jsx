@@ -7,45 +7,116 @@ function Contact() {
             <div className='relative h-[90vh] bg-cover bg-center' style={{ backgroundImage: "url('https://res.cloudinary.com/dmfbnkb1q/image/upload/v1745056358/IMG-20250418-WA0008_glkcuz.jpg')" }}>
                 <div className='absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center'>
                     <div className="container mx-auto px-6 mt-5 lg:mt-0 lg:mb-0 mb-5">
-                        <form 
-                            name="contact" 
-                            className='bg-white bg-opacity-95 max-w-2xl mx-auto p-10 rounded-3xl shadow-2xl transform hover:scale-105 transition duration-300'
-                        netlify
-                        >
-                            <input type="hidden" name="form-name" value="contact" />
-                            <h2 className='text-5xl font-extrabold mb-8 text-center text-green-800 bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-teal-400'>Contact Us</h2>
 
-                            <p>
-                                <label className="block text-gray-700 font-semibold mb-2">
-                                    Name
-                                    <input 
-                                        type="text" 
-                                        name="name" 
-                                        className="w-full p-4 mt-2 mb-6 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500 transition duration-300" 
-                                        required 
-                                    />
-                                </label>
-                            </p>
-                            <p>
-                                <label className="block text-gray-700 font-semibold mb-2">
-                                    Email
-                                    <input 
-                                        type="email" 
-                                        name="email" 
-                                        className="w-full p-4 mt-2 mb-6 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500 transition duration-300" 
-                                        required 
-                                    />
-                                </label>
-                            </p>
-                            <p>
-                                <button 
-                                    type="submit" 
-                                    className="w-full py-4 bg-gradient-to-r from-green-500 to-teal-400 text-white rounded-lg shadow-lg hover:from-green-600 hover:to-teal-500 transition duration-300 text-lg font-semibold transform hover:scale-105"
-                                >
-                                    Send
-                                </button>
-                            </p>
-                        </form>
+
+
+
+
+
+
+                        <form
+  name="teacher-recruitment"
+  method="POST"
+  data-netlify="true"
+  className='bg-white bg-opacity-95 max-w-2xl mx-auto p-10 rounded-3xl shadow-2xl transform hover:scale-105 transition duration-300'
+>
+  <input type="hidden" name="form-name" value="teacher-recruitment" />
+  <h2 className='text-5xl font-extrabold mb-8 text-center text-green-800 bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-teal-400'>Women Teachers Recruitment</h2>
+
+  <p>
+    <label className="block text-gray-700 font-semibold mb-2">
+      Full Name
+      <input 
+        type="text" 
+        name="full-name" 
+        className="w-full p-4 mt-2 mb-6 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500 transition duration-300" 
+        required 
+      />
+    </label>
+  </p>
+  
+  <p>
+    <label className="block text-gray-700 font-semibold mb-2">
+      Email Address
+      <input 
+        type="email" 
+        name="email" 
+        className="w-full p-4 mt-2 mb-6 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500 transition duration-300" 
+        required 
+      />
+    </label>
+  </p>
+  
+  <p>
+    <label className="block text-gray-700 font-semibold mb-2">
+      Phone Number
+      <input 
+        type="tel" 
+        name="phone" 
+        className="w-full p-4 mt-2 mb-6 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500 transition duration-300" 
+        required 
+      />
+    </label>
+  </p>
+  
+  <p>
+    <label className="block text-gray-700 font-semibold mb-2">
+      Highest Qualification
+      <input 
+        type="text" 
+        name="qualification" 
+        className="w-full p-4 mt-2 mb-6 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500 transition duration-300" 
+        required 
+      />
+    </label>
+  </p>
+  
+  <p>
+    <label className="block text-gray-700 font-semibold mb-2">
+      Years of Teaching Experience
+      <input 
+        type="number" 
+        name="experience" 
+        min="0"
+        className="w-full p-4 mt-2 mb-6 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500 transition duration-300" 
+        required 
+      />
+    </label>
+  </p>
+  
+  <p>
+    <label className="block text-gray-700 font-semibold mb-2">
+      Subjects You Can Teach (comma separated)
+      <input 
+        type="text" 
+        name="subjects" 
+        className="w-full p-4 mt-2 mb-6 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500 transition duration-300" 
+        required 
+      />
+    </label>
+  </p>
+  
+  <p className="mb-6">
+    <label className="flex items-center text-gray-700 font-semibold">
+      <input 
+        type="checkbox" 
+        name="gender-confirmation" 
+        className="mr-2 h-5 w-5 text-green-500 rounded focus:ring-green-400" 
+        required
+      />
+      I confirm that I identify as female and meet the gender requirements for this position
+    </label>
+  </p>
+
+  <p>
+    <button 
+      type="submit" 
+      className="w-full py-4 bg-gradient-to-r from-green-500 to-teal-400 text-white rounded-lg shadow-lg hover:from-green-600 hover:to-teal-500 transition duration-300 text-lg font-semibold transform hover:scale-105"
+    >
+      Apply Now
+    </button>
+  </p>
+</form>
                     </div>
                 </div>
             </div>
