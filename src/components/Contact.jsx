@@ -4,7 +4,7 @@ import { AccessTime, LocationOn, GetApp } from '@mui/icons-material';
 function Contact() {
     return (
         <div className="bg-gradient-to-b from-green-50 to-white min-h-screen">
-            <div className='relative h-[90vh] bg-cover bg-center' style={{ backgroundImage: "url('https://res.cloudinary.com/dmfbnkb1q/image/upload/v1745056358/IMG-20250418-WA0008_glkcuz.jpg')" }}>
+            <div className='relative h-[200vh] bg-cover bg-center' style={{ backgroundImage: "url('https://res.cloudinary.com/dmfbnkb1q/image/upload/v1745056358/IMG-20250418-WA0008_glkcuz.jpg')" }}>
                 <div className='absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center'>
                     <div className="container mx-auto px-6 mt-5 lg:mt-0 lg:mb-0 mb-5">
 
