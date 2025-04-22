@@ -49,7 +49,7 @@ function App() {
                 <Coursoul />
                 <Marquee text={`"Welcome to Delhi Public School, where we nurture young minds for a brighter future."`} />
                 <Timer />
-                <Marquee text={<span><a href="/contact" className="text-white underline">Join us for our Grand Inauguration Function, in 2025.</a></span>} />
+                <Marquee text={<span><a href="/contact" className="text-white underline">Click Here to apply for primary teacher position(women only)</a></span>} />
                 <Main2 />
                 <Checkout />
                 <Main1 />
