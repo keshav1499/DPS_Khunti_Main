@@ -10,24 +10,48 @@ function Contact() {
                         <form 
                             name="contact" 
                             method="POST" 
-                            data-netlify="true" 
+                            data-netlify="true"
                             className='bg-white bg-opacity-95 max-w-2xl mx-auto p-10 rounded-3xl shadow-2xl transform hover:scale-105 transition duration-300'
                         >
                             <input type="hidden" name="form-name" value="contact" />
                             <h2 className='text-5xl font-extrabold mb-8 text-center text-green-800 bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-teal-400'>Contact Us</h2>
 
-                            <input type="text" name="name" placeholder='Your Full Name' className="w-full p-4 mb-6 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500 transition duration-300" required />
-                            <input type="email" name="email" placeholder='Your Email Address' className="w-full p-4 mb-6 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500 transition duration-300" required />
-                            <textarea name="message" placeholder='Your Message' className='w-full p-4 mb-6 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500 transition duration-300' rows="5" required></textarea>
-
-                            <button type='submit' className="w-full py-4 bg-gradient-to-r from-green-500 to-teal-400 text-white rounded-lg shadow-lg hover:from-green-600 hover:to-teal-500 transition duration-300 text-lg font-semibold transform hover:scale-105">
-                                Send Message
-                            </button>
+                            <p>
+                                <label className="block text-gray-700 font-semibold mb-2">
+                                    Name
+                                    <input 
+                                        type="text" 
+                                        name="name" 
+                                        className="w-full p-4 mt-2 mb-6 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500 transition duration-300" 
+                                        required 
+                                    />
+                                </label>
+                            </p>
+                            <p>
+                                <label className="block text-gray-700 font-semibold mb-2">
+                                    Email
+                                    <input 
+                                        type="email" 
+                                        name="email" 
+                                        className="w-full p-4 mt-2 mb-6 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500 transition duration-300" 
+                                        required 
+                                    />
+                                </label>
+                            </p>
+                            <p>
+                                <button 
+                                    type="submit" 
+                                    className="w-full py-4 bg-gradient-to-r from-green-500 to-teal-400 text-white rounded-lg shadow-lg hover:from-green-600 hover:to-teal-500 transition duration-300 text-lg font-semibold transform hover:scale-105"
+                                >
+                                    Send
+                                </button>
+                            </p>
                         </form>
                     </div>
                 </div>
             </div>
 
+            {/* Everything below remains unchanged */}
             <div className="container mx-auto py-20 px-6">
                 <h2 className="text-5xl font-extrabold mb-16 text-center text-green-900 bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-teal-400">Get In Touch</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
