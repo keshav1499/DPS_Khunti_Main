@@ -1,79 +1,84 @@
+# DPS Khunti – Official School Website 🌐
 
+Welcome to the official website repository for **Delhi Public School, Khunti**. This project showcases the institution, its values, admissions, facilities, events, and more—all built using modern web technologies with performance, accessibility, and aesthetics in mind.
 
-# School Website
+## 🚀 Live Site
 
-Welcome to the School Website project! This project is designed to provide a modern and engaging online presence for a school, featuring components such as About Us, History, Contact Information, and more. Built with React and Vite, this application delivers a seamless user experience with modern design aesthetics.
+[https://dpskhunti.com](https://dpskhunti.com)
 
-## 📸 Screenshots
+## 📸 Features
 
-![Home Page](./public/s1.png)
+- ✨ Hero Section with modern school branding
+- 🏫 About sections including messages from Director and Principal
+- 📝 Admission Info and Contact form with EmailJS integration
+- 📍 Google Maps integration for school location
+- 📷 Gallery, Events, and Facilities section
+- ⚡ Optimized for mobile and desktop
+- 🛠️ Built with React, Tailwind CSS, and Netlify
 
-## 🚀 Installation
+## 🛠️ Tech Stack
 
-Follow these steps to set up and run the project on your local machine.
+- **Frontend**: React.js, Tailwind CSS
+- **Icons**: MUI Icons (Material UI)
+- **Forms**: EmailJS for contact forms
+- **Deployment**: Netlify
+- **Domain**: Namecheap with Netlify DNS
 
-### 1. Clone the Repository
+## 📁 Project Structure
 
-Clone the repository to your local machine using Git:
-
-```bash
-git clone https://github.com/MangeshChate/school-website-Task.git
-cd your-repository
+```
+src/
+├── components/
+│   ├── Hero.jsx
+│   ├── Main1.jsx          // Director and Principal sections
+│   ├── Contact.jsx
+│   └── ...
+├── assets/
+│   └── images/
+├── App.jsx
+└── index.js
 ```
 
-### 2. Install Dependencies
+## 📦 Setup Instructions
 
-Ensure you have [Node.js](https://nodejs.org/) installed. Then, install the project dependencies using:
+1. **Clone the repo**
 
-```bash
-npm install
-```
+   ```bash
+   git clone https://github.com/yourusername/dpskhunti.git
+   cd dpskhunti
+   ```
 
-or
+2. **Install dependencies**
 
-```bash
-yarn install
-```
+   ```bash
+   npm install
+   ```
 
+3. **Run locally**
 
+   ```bash
+   npm start
+   ```
 
-### 3. Run the Development Server
+4. **Build for production**
 
-Start the development server using:
+   ```bash
+   npm run build
+   ```
 
-```bash
-npm run dev
-```
+## 🌐 Deployment Notes
 
-or
+- Domain `dpskhunti.com` purchased via **Namecheap**
+- DNS hosted and managed through **Netlify DNS**
+- HTTPS/SSL automatically handled by Netlify
 
-```bash
-yarn dev
-```
+## 🤝 Contributing
 
-Your application will be available at `http://localhost:5173`.
+Have ideas to improve the site? Found a bug? Feel free to fork the repo and submit a pull request. All suggestions are welcome!
 
-## 📦 Usage
+---
 
-Navigate through the following sections of the website:
+## 📬 Contact
 
-- **Home Page**: Features an introduction to the school with a modern layout.
-- **About Us**: Provides information about the school's mission, vision, and values.
-- **History**: Highlights the school's history with a beautiful timeline.
-- **Contact Us**: Includes a contact form, office hours, location map, and admission details.
-
-### Contact Form
-
-The contact form uses [EmailJS](https://www.emailjs.com/) for sending emails. Ensure you configure your email service correctly in the `.env` file.
-
-
-
-
-
-## 📝 Acknowledgements
-
-- **React**: A JavaScript library for building user interfaces.
-- **Vite**: A fast build tool for modern web projects.
-- **Tailwind CSS**: A utility-first CSS framework for designing beautiful interfaces.
-
-
+Built with ❤️ by DPS Khunti Web Team  
+Email: [dpskhunti@gmail.com](mailto:dpskhunti@gmail.com)
