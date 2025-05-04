@@ -32,7 +32,8 @@ function Footer() {
               <p>
                 Email: dpskhunti@gmail.com <br />
                 Ph: +91 7366911127 <br />
-                Ph: +91 8603200456
+                Ph: +91 8603200456 <br />
+                Ph: +91 7903552774
               </p>
               <h6 className="text-uppercase fw-bold mb-3 mt-3">Follow Us</h6>
               <a href="" target='_blank' className='text-3xl text-pink-700'>
