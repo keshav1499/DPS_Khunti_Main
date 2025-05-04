@@ -18,6 +18,7 @@ const Campus = () => {
     'https://res.cloudinary.com/dmfbnkb1q/image/upload/v1745056356/IMG-20250419-WA0011_sjpbj6.jpg',
     'https://res.cloudinary.com/dmfbnkb1q/image/upload/v1745056359/IMG-20250418-WA0006_r6wspp.jpg',
     'https://res.cloudinary.com/dmfbnkb1q/image/upload/v1745056364/IMG-20250417-WA0022_igusmf.jpg',
+    'https://res.cloudinary.com/dmfbnkb1q/image/upload/v1746351484/IMG-20250503-WA0030_vlqn9d.jpg',
   ];
 
   const campusVideos = [
