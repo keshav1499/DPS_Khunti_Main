@@ -8,7 +8,7 @@ function Main3() {
             <div
                 className="parallax-bg d-flex justify-content-center align-items-center bg-center bg-no-repeat"
                 style={{
-                    backgroundImage: "url('https://res.cloudinary.com/dmfbnkb1q/image/upload/v1745056364/IMG-20250417-WA0022_igusmf.jpg')",
+                    backgroundImage: "url('https://res.cloudinary.com/dmfbnkb1q/image/upload/v1745056356/WhatsApp_Image_2025-03-22_at_20.28.20_49a3f2c4_am73rb.jpg')",
                 }}
             ></div>
 
@@ -28,7 +28,7 @@ function Main3() {
                         </div>
 
                         <div className="hidden lg:flex justify-center">
-                            <img src="https://res.cloudinary.com/dmfbnkb1q/image/upload/v1745056363/IMG-20250417-WA0020_aaozxy.jpg" alt="" className='shadow-lg rounded-4 w-[700px] h-[400px]' />
+                            <img src="https://res.cloudinary.com/dmfbnkb1q/image/upload/v1745056364/IMG-20250417-WA0022_igusmf.jpg" alt="" className='shadow-lg rounded-4 w-[700px] h-[400px]' />
                         </div>
                     </div>
                 </div>
