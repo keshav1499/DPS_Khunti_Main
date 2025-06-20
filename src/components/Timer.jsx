@@ -13,7 +13,7 @@ function Timer() {
           </span>
           <span className='text-lg hidden lg:block  lg:text-4xl lg:w-[400px] w-auto font-bold'>
           Delhi Public School <br />
-          Grand Inauguration 2025
+          Foundation for the future
           </span>
         </div>
         <div className='flex justify-start items-center'>
