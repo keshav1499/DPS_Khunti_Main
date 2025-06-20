@@ -38,7 +38,7 @@ function Navbar() {
           <div className="container-fluid ">
             <span className='navbar-brand flex items-center'>
 
-              <img src="https://res.cloudinary.com/dmfbnkb1q/image/upload/v1745056355/WhatsApp_Image_2025-03-22_at_20.29.53_62264967_quqixz.jpg" alt="" className='navbar-brand rounded-full  object-fill  w-[50px] lg:w-[80px]  ' />
+              <img src="https://res.cloudinary.com/dmfbnkb1q/image/upload/v1750427186/WhatsApp_Image_2025-03-22_at_20.29.53_62264967_quqixz.jpg" alt="" className='navbar-brand rounded-full  object-fill  w-[50px] lg:w-[80px]  ' />
 
               <div className=' flex-col justify-center hidden lg:flex'>
                 <span className='font-bold '>Delhi Public School</span>
