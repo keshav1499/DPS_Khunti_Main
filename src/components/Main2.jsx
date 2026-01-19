@@ -23,7 +23,7 @@ function Main2() {
             </button>
           </div>
           <div className="lg:mt-0 mt-5 flex justify-center items-center">
-            <a href="https://www.wolverhampton.gov.uk/sites/default/files/2023-01/Job%20ref%203-2023%20SDP%20-%20Recruitment%20brochure.pdf" download="brochure.pdf">
+            /*<a href="https://www.wolverhampton.gov.uk/sites/default/files/2023-01/Job%20ref%203-2023%20SDP%20-%20Recruitment%20brochure.pdf" download="brochure.pdf">*/
               <img src="https://res.cloudinary.com/dmfbnkb1q/image/upload/v1745056363/IMG-20250417-WA0021_byecy9.jpg" className='lg:w-full rounded-lg' alt="Brochure" />
             </a>
           </div>
