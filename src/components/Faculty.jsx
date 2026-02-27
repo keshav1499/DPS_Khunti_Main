@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const aboutData = [
@@ -13,12 +12,6 @@ const aboutData = [
     description: "Director",
     image: "https://res.cloudinary.com/dmfbnkb1q/image/upload/v1745067782/WhatsApp_Image_2025-04-19_at_18.18.51_0720d1e5_ndshqz.jpg", 
     quote: "Together, we can achieve greatness. Let’s work hand-in-hand to shape the future and build a thriving school environment.",
-  },
-  {
-    name: "Pritha Sarkar",
-    description: "Vice Principal",
-    image: "https://res.cloudinary.com/dmfbnkb1q/image/upload/v1769792764/VP_an0w9c.jpg",
-    quote: "Delhi Public School (DPS) Khunti is a growing institution committed to providing quality education and holistic development to its students. As the Vice Principal of DPS Khunti, I take pride in being part of a school that emphasizes academic excellence, discipline, and strong moral values. The school offers a nurturing environment where students are encouraged to explore their talents, think creatively and develop leadership skills. With a dedicated team of teachers and a student-centric approach, DPS Khunti strives to shape confident, responsible and independent individuals who can contribute positively towards society."
   },
   {
     name: "Madhuri Kumari",
@@ -55,12 +48,11 @@ const aboutData = [
 function Faculty() {
   const principal = aboutData.find(member => member.description === "Principal");
   const Director = aboutData.find(member => member.description === "Director");
-  const vicePrincipal = aboutData.find(member => member.description === "Vice Principal");
+  
   const otherFaculty = aboutData.filter(
     member =>
       member.description !== "Principal" &&
-      member.description !== "Director" &&
-      member.description !== "Vice Principal"
+      member.description !== "Director"
   );
 
   return (
@@ -98,23 +90,6 @@ function Faculty() {
           </div>
         )}
       </div>
-
-      {vicePrincipal && (
-        <div className="max-w-4xl mx-auto mb-16">
-          <div className="rounded-xl shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
-            <div className="md:flex">
-              <div className="md:flex-shrink-0">
-                <img className="h-full w-full object-cover md:w-48" src={vicePrincipal.image} alt={vicePrincipal.name} />
-              </div>
-              <div className="p-8">
-                <div className="uppercase tracking-wide text-sm text-green-600 font-semibold">{vicePrincipal.description}</div>
-                <h2 className="block mt-1 text-2xl leading-tight font-medium text-black">{vicePrincipal.name}</h2>
-                <p className="mt-2 text-gray-500">{vicePrincipal.quote}</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
 
       {otherFaculty.length > 0 && (
         <div>
